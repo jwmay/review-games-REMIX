@@ -9,10 +9,10 @@ declare module '@remix-run/node' {
 }
 
 export default defineConfig({
-  base: '/review-games/',
+  base: '/review-games-REMIX/',
   plugins: [
     remix({
-      basename: '/review-games/',
+      basename: '/review-games-REMIX/',
       ssr: false,
       future: {
         v3_fetcherPersist: true,
